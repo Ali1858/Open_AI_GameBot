@@ -1,7 +1,20 @@
 # Open AI Gym
 Creating Game Bot for CartPole Game in openAI Gym with Simple neural network ( not Reinforcement Learning ).
 
-we Brute force all the possible action and store that action. after that it is as simple as classification problem
+we Brute force all the possible action and store that action. after that it is as simple as training for classification problem.
+
+#Before Training 
+we play with random action . Bot continously fail and fall from cart.Average score for 50 game is 25 point
+
+![before_train](https://user-images.githubusercontent.com/13449847/32211066-db936994-be36-11e7-87f3-3558f4fea909.gif)
+
+#After training
+After collecting all data and train on it . we can predict our action  on observation .
+Now Bot is showing some imporvement and our Average score for 10 game is 190 point. prety good for simple feedforward network
+
+![after_train](https://user-images.githubusercontent.com/13449847/32211269-c3070b78-be37-11e7-9269-9bb2cd1b1594.gif)
+
+
 
 
 Disclaimer ----------------------------------------------------------
